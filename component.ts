@@ -6,19 +6,15 @@ function generarFibonacci(n: number): number[] {
     if (n === 1) return [0];
 
     for (let i = 2; i < n; i++) {
-<<<<<<< HEAD
         const siguienteNumero = serie[i - 1] + serie[i - 2];
         serie.push(siguienteNumero);
-=======
-        secuencia.push(secuencia[i - 1] + secuencia[i - 2]);
->>>>>>> iss53
     }
 
     return serie;
 }
 
 // Configura cuántos números quieres mostrar
-const cantidadNumeros: number = 100;
+const cantidadNumeros: number = 10;
 const resultado = generarFibonacci(cantidadNumeros);
 
 // Muestra el resultado en la consola
