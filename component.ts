@@ -14,9 +14,9 @@ function generarFibonacci(n: number): number[] {
 }
 
 // Configura cuántos números quieres mostrar
-const cantidadNumeros: number = 8;
+const cantidadNumeros: number = 10;
 const resultado = generarFibonacci(cantidadNumeros);
 
 // Muestra el resultado en la consola
-console.log(`Los adfafdasdfa ${cantidadNumeros} números de Fiboadfasdfasfasdfnacci son:`);
+console.log(`Los numeros ${cantidadNumeros} números de Fibonacci son:`);
 console.log(resultado);
