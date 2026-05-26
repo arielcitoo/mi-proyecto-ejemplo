@@ -13,7 +13,7 @@ function generarFibonacci(n: number): number[] {
 }
 
 // Configura cuántos números quieres mostrar
-const cantidadNumeros: number = 50;
+const cantidadNumeros: number = 100;
 const resultado = generarFibonacci(cantidadNumeros);
 
 // Muestra el resultado en la consola
