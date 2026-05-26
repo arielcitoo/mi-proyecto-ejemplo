@@ -1,19 +1,19 @@
 // Función que genera los primeros 'n' números de Fibonacci
 function generarFibonacci(n: number): number[] {
-    const secuencia: number[] = [0, 1];
+    const serie: number[] = [0, 1];
 
     if (n <= 0) return [];
     if (n === 1) return [0];
 
     for (let i = 2; i < n; i++) {
-        secuencia.push(secuencia[i - 1] + secuencia[i - 2]);
+        serie.push(serie[i - 1] + serie[i - 2]);
     }
 
-    return secuencia;
+    return serie;
 }
 
 // Configura cuántos números quieres mostrar
-const cantidadNumeros: number = 50;
+const cantidadNumeros: number = 100;
 const resultado = generarFibonacci(cantidadNumeros);
 
 // Muestra el resultado en la consola
