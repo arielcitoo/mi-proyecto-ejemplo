@@ -17,10 +17,6 @@ const cantidadNumeros: number = 50;
 const resultado = generarFibonacci(cantidadNumeros);
 
 // Muestra el resultado en la consola
-<<<<<<< HEAD
 console.log(`Los primeros ${cantidadNumeros} números de Fibonacci a contuanción:`);
-=======
-console.log(`Los primeros ${cantidadNumeros} números de Fibonacci son :`);
->>>>>>> origin/master
 console.log(resultado);
 console.log('este resultado es de prueba del arropaje que se hizo para el proyecto');
