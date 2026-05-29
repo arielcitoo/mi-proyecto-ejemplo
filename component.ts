@@ -6,14 +6,14 @@ function generarFibonacci(n: number): number[] {
     if (n === 1) return [0];
 
     for (let i = 2; i < n; i++) {
-        secuencia1.push(secuencia1[i - 1] + secuencia1[i - 2]);
+        secuencia.push(secuencia[i - 1] + secuencia[i - 2]);
     }
 
-    return secuencia1;
+    return secuencia;
 }
 
 // Configura cuántos números quieres mostrar
-const cantidadNumeros: number = 50;
+const cantidadNumeros: number = 20;
 const resultado = generarFibonacci(cantidadNumeros);
 
 // Muestra el resultado en la consola
