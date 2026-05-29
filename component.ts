@@ -1,4 +1,4 @@
-// Función que genera los primeros 'n' números de Fibonacci
+// TODO: Optimizar con memoización en el futuro
 function generarFibonacci(n: number): number[] {
     const secuencia: number[] = [0, 1];
 
