@@ -19,4 +19,4 @@ const resultado = generarFibonacci(cantidadNumeros);
 // Muestra el resultado en la consola
 console.log(`Los primeros ${cantidadNumeros} números de Fibonacci a contuanción:`);
 console.log(resultado);
-console.log('este resultado es de prueba');
+console.log('este es un resultado nuevo');
