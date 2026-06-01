@@ -1,4 +1,4 @@
-// TODO: Optimizar con memoización en el futuro
+// Optimizar codigo Fibonacci
 function generarFibonacci(n: number): number[] {
     const secuencia: number[] = [0, 1];
 
@@ -19,4 +19,4 @@ const resultado = generarFibonacci(cantidadNumeros);
 // Muestra el resultado en la consola
 console.log(`Los primeros ${cantidadNumeros} números de Fibonacci a contuanción:`);
 console.log(resultado);
-console.log('resultado finallitimo');
+
