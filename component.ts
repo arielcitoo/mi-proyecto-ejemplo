@@ -1,4 +1,4 @@
-// fibonacci.ts
+// fibonacci.ts - Versión de Ana (muchos cambios juntos)
 function fibonacci(n: number): number {
     // Validación de entrada (cambio 1)
     if (!Number.isInteger(n) || n < 0) {
