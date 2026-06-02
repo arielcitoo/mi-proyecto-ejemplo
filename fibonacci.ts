@@ -10,4 +10,4 @@ function fibonacci(n: number): number {
 // Ejecutar ejemplo
 const resultado = fibonacci(10);
 console.log(`Resultado: ${resultado}`);
-console.log('hola mundo');
+console.log('hola mundo epo');
